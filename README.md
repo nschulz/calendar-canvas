@@ -1,4 +1,4 @@
-calendar_canvas
+calendar-canvas
 ===============
 
 HTML canvas coding project.

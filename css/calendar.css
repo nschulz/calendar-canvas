@@ -1,0 +1,39 @@
+/* @group Reset */
+
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, code,del, dfn, em, img, q, dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;}body {line-height: 1.5;}/* Tables still need 'cellspacing="0"' in the markup. */table {border-collapse: separate;border-spacing: 0;}caption, th, td {text-align: left;font-weight: normal;}table, td, th {vertical-align: middle;}/* Remove possible quote marks (") from <q>, <blockquote>. */blockquote:before, blockquote:after, q:before, q:after {content: "";}blockquote, q {quotes: "" "";}/* Remove annoying border on linked images. */a img {border: none;}
+
+/* @end */
+
+/* @group Timeline */
+
+ul.timeline {
+	color: #a6a6a6;
+	float: left;
+	font: bold 9px "Lucida Grande", Arial;
+	/*font-family: "Lucida Grande", Arial;
+	font-size: 9px;
+	font-weight: bold;*/
+	list-style: none;
+	text-shadow: 0 1px 1px white;
+	text-transform: uppercase;
+	width: 75px;
+}
+ul.timeline li {
+	text-align: right;
+	height: 30px;
+}
+ul.timeline li.major span.major {
+	color: #686868;
+	font-size: 10pt;
+}
+
+/* @end */
+
+.calendarContainer {
+	padding: 25px 10px;
+}
+
+#CalendarView {
+	margin:10px;
+	border-left: 1px solid #dfdfdf;
+}
